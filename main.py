@@ -1,4 +1,3 @@
-# Import von Bibliotheken
 import math # (Beispielimport)
 
 # Hauptfunktion

@@ -1,3 +1,4 @@
 passwort.json
 *.json
 *.build
+*.passwort
