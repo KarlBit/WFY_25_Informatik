@@ -35,8 +35,6 @@ class Tetris_GUI:
         eingabe = self.eingabe_feld.get()
         self.ausgabe_label.config(text=eingabe)
 
-
-
 '''Hauptfunktion, die das Programm startet'''
 def main():
     # Versuche auszuführen
