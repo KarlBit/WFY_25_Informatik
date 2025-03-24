@@ -1,0 +1,5 @@
+--- 
+# Konfigurationsdatei der Anwendung 
+LOGGING_LEVEL: "INFO"
+LOGGING_FORMAT: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+LOGGING_PATH: "logs/debug.log"
