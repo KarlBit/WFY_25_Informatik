@@ -2,4 +2,5 @@ passwort.json
 *.json
 *.build
 *.passwort
+.env
 images/th_wildau.png

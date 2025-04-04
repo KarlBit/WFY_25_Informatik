@@ -1,5 +1,11 @@
---- 
 # Konfigurationsdatei der Anwendung 
-LOGGING_LEVEL: "INFO"
+
+# Variablen für die Anwendung
+VARIABLE_1: "1000"
+VARIABLE_2: "5"
+
+# Logging-Konfiguration
+LOGGING_LEVEL: "DEBUG" # DEBUG, INFO, WARNING, ERROR, CRITICAL
 LOGGING_FORMAT: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-LOGGING_PATH: "logs/debug.log"
+LOGGING_PATH: "logs/debug.log" 
+

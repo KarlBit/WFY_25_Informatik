@@ -12,6 +12,7 @@
     <link rel="icon" href="../images/favicon.jpg">
     <!-- Script import -->
     <link rel="import" href="../scripte/javascript.js">
+    <link rel="import" href="../scripte/foto_hochladen.py">
 </head>
 
 <!-- BODY Inhalt -->
@@ -26,7 +27,19 @@
 
     <main>
         <h1>Kontakt</h1>
-        <p>Wenn Sie uns kontaktieren möchten, schreiben Sie uns eine E-Mail an
+        <form>
+            <input type="text" placeholder="Vorname" required><br>
+            <input type="text" placeholder="Nachname" required><br>
+            <input type="email" placeholder="E-Mail" required><br>
+
+            <textarea placeholder="Nachricht" required></textarea><br><br><br>  
+        </form>
+        <form>
+            <label for="file">Wählen Sie ein Bild aus:</label>
+            <input value="Foto Hochladen" type="file" id="file" name="file"><br><br>
+            <input type="submit" value="Absenden" action="?foto_absenden">
+
+        </form>
     </main>
 
     <footer>
